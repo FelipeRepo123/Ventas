@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de clientes</title>
+    <link rel="stylesheet" href="css/style.css">
+        <a href="producto.html" class="enlace-elegante">Productos</a>
+</head>
+<body>
+    <h1>Gestion de clientes</h1>
+    <form id="formCliente">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="email" id="email" placeholder="Correo" required >
+        <input type="text" id="telefono" placeholder="Telefono" required>
+        <button type="submit">Agregar</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Telefono</th>
+            </tr>
+        </thead>
+        <tbody id="tablaClientes"></tbody>
+    </table>
+    <script src="js/main.js"></script>
+</body>
+</html>
